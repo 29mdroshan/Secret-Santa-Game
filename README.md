@@ -44,7 +44,7 @@ Assign Secret Santa
 - Response: CSV file with current Secret Santa assignments.
 
 - Curl Command: (update the file path)
-curl --location 'http://localhost:9500/v1/assign/secret/santa' \
+curl --location 'http://localhost:8000/v1/assign/secret/santa' \
 --form 'employees=@"/home/path/currentYear.csv"' \
 --form 'previousAssignments=@"/home/path/previousYear.csv"'
 
