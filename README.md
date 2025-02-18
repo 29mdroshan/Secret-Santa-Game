@@ -43,4 +43,8 @@ Assign Secret Santa
 	- previousAssignments (optional, previous assignments CSV file)
 - Response: CSV file with current Secret Santa assignments.
 
-https://github.com/29mdroshan/Secret-Santa-Game.git
+- Curl Command: (update the file path)
+curl --location 'http://localhost:9500/v1/assign/secret/santa' \
+--form 'employees=@"/home/path/currentYear.csv"' \
+--form 'previousAssignments=@"/home/path/previousYear.csv"'
+
