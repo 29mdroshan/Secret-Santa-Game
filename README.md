@@ -26,7 +26,7 @@ The Secret Santa application allows users to organize a Secret Santa gift exchan
 - An IDE (e.g., IntelliJ IDEA, Eclipse)
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository: https://github.com/29mdroshan/Secret-Santa-Game.git
 2. Navigate to the project directory: cd secret-santa
 3. Build the project: ./gradlew clean build
 4. Running the Application: ./gradlew bootrun
